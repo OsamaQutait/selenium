@@ -1,7 +1,7 @@
 import org.openqa.selenium.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.*;
-public class youtubeSearch {
+public class w3schoolSearch {
     WebDriver driver;
     public void launchBrowser(){
         System.setProperty("webdriver.chrome.driver", "C:\\webdriver\\chromedriver.exe");
@@ -16,7 +16,7 @@ public class youtubeSearch {
         driver.findElement(By.linkText("HTML Tutorial")).click();
     }
     public static void main(String[] args) throws InterruptedException {
-        youtubeSearch search_about_selenium = new youtubeSearch();
+        w3schoolSearch search_about_selenium = new w3schoolSearch();
         search_about_selenium.launchBrowser();
         search_about_selenium.searchProduct();
 
