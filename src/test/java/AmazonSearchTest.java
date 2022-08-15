@@ -5,10 +5,6 @@ import org.testng.annotations.Test;
 public class AmazonSearchTest {
 
     @Test
-    public void testLaunchBrowser() {
-    }
-
-    @Test
     public void testSearchAmazonProduct() {
         String department = "search-alias=baby-products-intl-ship";
         String product = "shoes";
@@ -20,7 +16,4 @@ public class AmazonSearchTest {
 
     }
 
-    @Test
-    public void testMain() {
-    }
 }
