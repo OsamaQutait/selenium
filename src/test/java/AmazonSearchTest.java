@@ -8,11 +8,11 @@ public class AmazonSearchTest {
     public void testSearchAmazonProduct() {
         String department = "search-alias=baby-products-intl-ship";
         String product = "shoes";
-        String realSponValue = "RESULTS";
+        String realSponTextValue = "RESULTS";
         AmazonSearch search_about_baby_shoes = new AmazonSearch();
         search_about_baby_shoes.launchBrowser();
-        String expectedSponValue = search_about_baby_shoes.searchAmazonProduct(department, product);
-        assertEquals(realSponValue, expectedSponValue);
+        String expectedSponTextValue = search_about_baby_shoes.searchAmazonProduct(department, product);
+        assertEquals(realSponTextValue, expectedSponTextValue);
 
     }
 
